@@ -12,5 +12,5 @@ ln -s calccomf.*.so calccomf.so
 
 cd ..
 
-cp PyLAT.py ${PREFIX}/bin/.
+cp PyLAT.py ${PREFIX}/bin/pylat
 cp -r src ${PREFIX}/bin/.
