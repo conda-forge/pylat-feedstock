@@ -10,7 +10,7 @@ source:
   sha256: 6e8a47e1815ddf17f4cfaf7b1deb392d89dba994b3eea18ba2989ab9155fb920 
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
 
 requirements:
@@ -38,7 +38,7 @@ about:
   summary: 'A set of Python analysis tools for LAMMPS'
   description: |
     A set of open source tools to analyze molecular dynamics trajectories
-    generated from the LAMMPS simulation engine. The available tools include
+    generated from the LAMMPS simulation engine. The available analyses include
     viscosities, self-diffusivities, ionic conductivities, radial distribution
     functions, among others. PyLAT is written in Python with Fortran extensions
     for computational intensive tasks.
