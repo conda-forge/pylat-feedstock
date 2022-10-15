@@ -31,7 +31,7 @@ test:
     - pip
   commands:
     - pip check
-    - PyLAT.py -h
+    - pylat -h
 
 about:
   home: https://github.com/MaginnGroup/PyLAT
