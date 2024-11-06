@@ -10,12 +10,13 @@ source:
   sha256: 6e8a47e1815ddf17f4cfaf7b1deb392d89dba994b3eea18ba2989ab9155fb920 
 
 build:
-  number: 3
+  number: 4
   skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('fortran') }}  # [not win]
+    - {{ stdlib("c") }}    # [not win]
   host:
     - python
     - numpy
